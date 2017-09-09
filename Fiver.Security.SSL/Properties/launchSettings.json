@@ -2,9 +2,13 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/Fiver.Security.SSL",
+      "sslPort": 0
+    },
     "iisExpress": {
-      "applicationUrl": "http://localhost:17250/",
-      "sslPort": 44326
+      "applicationUrl": "http://localhost:5000/",
+      "sslPort": 44384
     }
   },
   "profiles": {
@@ -21,7 +25,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:17251"
+      "applicationUrl": "http://localhost:5000"
     }
   }
 }
